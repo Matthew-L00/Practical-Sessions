@@ -1,3 +1,4 @@
+#Prac1
 x <- c(3,12,7)
 x
 y <- c(4,9,11)
@@ -16,7 +17,20 @@ w
 sum(w)
 v<-sum(w,na.rm = TRUE)
 v
+typeof(v)
 
+x>y
+
+x<-append(x,12)
+x
+
+u<-c(5:20)
+append(u,letters[6:10])
+u
+
+
+
+#Class work
 i <- 5
 i
 is.integer(i)
