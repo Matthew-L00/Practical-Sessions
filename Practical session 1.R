@@ -22,6 +22,7 @@ i
 is.integer(i)
 is.numeric(i)
 
+#int & num
 x1<-4L
 class(x1)
 x2<-2.8
@@ -40,11 +41,38 @@ class(x6)
 x7
 class(x7)
 
+#strings & chars
 z1<-"data"
 y1<-factor("data")
 y1
 z1
 nchar(z1)
-nchar(y1)
 nchar(505)
 nchar(3)
+
+#dates
+date1<-as.Date("2019-03-08")
+date1
+class(date1)
+as.numeric(date1)
+date2<-as.POSIXct("2019-03-08 09:00")
+class(date2)
+as.numeric(date2)
+
+#logical
+TRUE*6
+FALSE*5
+k<-TRUE
+class(k)
+is.logical(k)
+
+#Vectors
+v1<-c(10,20.5,60,15)
+v1
+assign('a',c(10,20.5,60,15))
+a
+a1<-c(10,20.5,60,15)
+a1
+a2=c(10,20.5,60,15)
+a2
+
